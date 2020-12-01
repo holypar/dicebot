@@ -58,4 +58,4 @@ class blackjack():
 
 userinput = int(input("How many coins are you going to gamble?: "))
 start = blackjack(userinput)
-print("donee")
+print("done")
