@@ -45,8 +45,6 @@ class blackjack():
             print("Bot will play his turn now...")
             hitorstay = "s"
 
-
-
             while hitorstay == "h" and BOTtotalroll < 100:
                 BOTcurrentRoll = randint(1, 100)
                 BOTtotalroll = BOTtotalroll + BOTcurrentRoll
@@ -55,12 +53,9 @@ class blackjack():
                 if BOTtotalroll < 100:
                     hitorstay = input("HIT or STAY (h/s)?: ")
                 else:
-                    print("BOT busted bad luck!")        
-
-
-
+                    print("BOT busted bad luck!")
 
 
 userinput = int(input("How many coins are you going to gamble?: "))
 start = blackjack(userinput)
-print("done")
+print("done now")
